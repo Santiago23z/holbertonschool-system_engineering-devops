@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#Write a Bash script that stops
+
+pkill -f 4-to_infinity_and_beyond
