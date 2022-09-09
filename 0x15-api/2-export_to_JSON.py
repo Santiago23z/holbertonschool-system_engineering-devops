@@ -22,4 +22,3 @@ if __name__ == "__main__":
     jsonobj[sys.argv[1]] = tasks
     with open('{}.json'.format(sys.argv[1]), 'w') as jsonfile:
         json.dump(jsonobj, jsonfile)
-
